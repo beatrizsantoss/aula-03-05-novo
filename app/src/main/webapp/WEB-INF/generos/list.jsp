@@ -21,8 +21,8 @@
                         <td>${item.id}</td>
                         <td>${item.nome}</td>
                         <td>
-                            <a href="/generos/update?id=${item.id}">Editar</a>
-                            <a href="/generos/delete?id=${item.id}">Excluir</a>
+                            <a href="/generos/update?id=${item.id}" class="btn btn-secondary">Editar</a>
+                            <a href="/generos/delete?id=${item.id}" class="btn btn-danger">Excluir</a>
                         </td>
                     </tr>
                 </c:forEach>
