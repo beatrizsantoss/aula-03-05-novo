@@ -14,7 +14,7 @@
                 <input type="text" name="nome" value="${genero.nome}" />
             </div>
             <a href="/generos/list">Voltar</a>
-            <button type="submit">Salvar</button>
+            <button type="submit" class="btn btn-primary">Salvar</button>
         </form>
     </body>
 </html>
